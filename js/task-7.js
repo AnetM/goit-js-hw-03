@@ -5,7 +5,7 @@
 /*
  * Типов транзацкий всего два.
  * Можно положить либо снять деньги со счета.
- */
+ */ 
 const Transaction = {
   DEPOSIT: 'deposit',
   WITHDRAW: 'withdraw',

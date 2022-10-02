@@ -7,15 +7,13 @@ const findBestEmployee = function (employees) {
     const numbers = Object.values(employees);
     const biggestNumber = Math.max(...numbers);
    
-   for (const key in employees) {
-       if (employees[key] === biggestNumber) {
-           return key
+   for (const employee in employees) {
+       if (employees[employee] === biggestNumber) {
+           return employee
        }
-   }
-    
+   }   
 }
 
-  
 /*
  * Вызовы функции для проверки работоспособности твоей реализации.
  */

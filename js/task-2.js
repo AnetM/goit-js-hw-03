@@ -3,9 +3,7 @@
 
 const countProps = function(obj) {
     const keys = Object.keys(obj);
-     const keysNumber = keys.length;  
-        return keys.length;
-    
+     return keys.length;  
 };
 
 /*
